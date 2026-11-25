@@ -1,0 +1,31 @@
+body {
+    background-color: #f4f6f9;
+}
+
+.canvas-wrapper {
+    display: inline-block;
+    padding: 8px;
+    background: #ffffff;
+    border: 2px solid #dee2e6;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+#digitCanvas {
+    display: block;
+    background-color: #000000;
+    border-radius: 6px;
+    cursor: crosshair;
+    touch-action: none; /* Чтобы на сенсорных экранах страница не скроллилась при рисовании */
+}
+
+.digit-badge {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.prob-bar-label {
+    width: 24px;
+    font-weight: 600;
+}
